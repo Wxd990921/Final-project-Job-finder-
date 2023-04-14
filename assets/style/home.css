@@ -1,0 +1,132 @@
+@import "./reset.css";
+
+html,
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+}
+
+header {
+    margin: auto;
+    width: 60%;
+}
+
+.nb {
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+.nb>div {
+    margin: 10px;
+}
+
+.nb-link {
+    text-align: right;
+    flex-grow: 3;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 200;
+    color: green;
+    flex-grow: 1;
+}
+
+.acc-menu {
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 10px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.prof-div {
+    padding: 5% 35%;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+}
+
+.acc-menu-view {
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.container2 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.details>div {
+    text-align: center;
+}
+
+.fullname {
+    font-weight: bold;
+}
+
+#fullname {
+    font-weight: bold;
+}
+
+#position {
+    color: green;
+}
+
+#city {
+    font-weight: 300;
+}
+
+#users {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    width: 200px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.user:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user>img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.user>div {
+    text-align: center;
+}
+
+.cell {
+    color: green;
+}
+
+.email {
+    font-weight: 100;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.email:hover {
+    overflow: visible;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}

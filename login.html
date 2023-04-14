@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Job Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Darren">
+  <meta name="description" content="My new cool project">
+  <meta name="keywords" content="HTML, CSS, SEO, web, web development">
+  <link rel="shortcut icon" href="./assets/img/question-icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/style/login.css">
+  <script type="text/javascript" src="./assets/js/login.js" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <form>
+    <h1>Login</h1>
+    <div class="formcontainer">
+      <hr />
+      <span id="err"></span>
+      <div class="container">
+        <label for="uname"><strong>Username</strong></label>
+        <input type="text" placeholder="Enter Username" id="uname" name="uname" required>
+        <label for="psw"><strong>Password</strong></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      </div>
+      <button id="submit">Login</button>
+      <div class="container" style="background-color: #eee">
+        <label style="padding-left: 15px">
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  </form>
+</body>
+
+</html>
